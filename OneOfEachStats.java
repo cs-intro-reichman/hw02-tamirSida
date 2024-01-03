@@ -17,11 +17,11 @@ public class OneOfEachStats {
             int countt = 0;
 
             do {
-                double pick = generator.nextDouble(); // Changed to double
+                double pick = generator.nextDouble();
                 if (pick < 0.5) {
-                    b = true; // Assuming less than 0.5 is a boy
+                    b = true;
                 } else {
-                    g = true; // Assuming 0.5 or greater is a girl
+                    g = true;
                 }
                 countt++;
             } while (!(b && g));
@@ -42,7 +42,7 @@ public class OneOfEachStats {
         System.out.println("Number of families with 4 or more children: " + fourmore);
 
         int maxCount = Math.max(twokids, Math.max(threekids, fourmore));
-        System.out.print("The most common number of children is: ");
+        System.out.print("The most common number of children is ");
         if (maxCount == twokids) {
             System.out.println("2");
         } else if (maxCount == threekids) {
