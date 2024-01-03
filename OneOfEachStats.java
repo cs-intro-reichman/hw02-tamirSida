@@ -44,11 +44,11 @@ public class OneOfEachStats {
         int maxCount = Math.max(twokids, Math.max(threekids, fourmore));
         System.out.print("The most common number of children is ");
         if (maxCount == twokids) {
-            System.out.println("2");
+            System.out.println("2.");
         } else if (maxCount == threekids) {
-            System.out.println("3");
+            System.out.println("3.");
         } else if (maxCount == fourmore) {
-            System.out.println("4 or more");
+            System.out.println("4 or more.");
         }
     }
 }
