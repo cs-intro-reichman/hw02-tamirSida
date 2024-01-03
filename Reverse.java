@@ -15,7 +15,7 @@ public class Reverse {
 	}
 		else  {
 		// get the mid char
-		middle_chr = wrd_Length/2;
+		middle_chr = (wrd_Length/2)-1;
 	
 	for (int i = (word.length()-1); i>=0; i--){
 		System.out.print(word.charAt(i));
