@@ -41,7 +41,7 @@ public class OneOfEachStats {
 		String answer = "";
 		boolean g = false;
 		boolean b = false;
-		int pick;
+		double pick;
 		int countt= 0;
 		int avgkids= 0;
 		int twokids = 0;
@@ -53,7 +53,7 @@ public class OneOfEachStats {
 			countt=0;
 
 			do {
-				pick = (int) (Math.random()*2);
+				pick = generator.nextDouble();
 				if (pick == 1) {
 					g = true;
 					
@@ -63,7 +63,7 @@ public class OneOfEachStats {
 				}
 				countt++;
 			}
-				while (!b||!g);
+				while (!(b && g));
 			
 				
 				avgkids+=countt;
