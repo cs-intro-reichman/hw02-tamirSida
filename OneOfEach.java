@@ -19,8 +19,7 @@ public class OneOfEach {
 				g = true;
 				System.out.print("g ");
 				//answer += "g ";
-				 }
-			else {
+				 }else {
 				//g = false;
 				b = true;
 				System.out.print("b ");
@@ -36,7 +35,7 @@ public class OneOfEach {
 				
 			}
 
-			}
+					}
 		
 
 
